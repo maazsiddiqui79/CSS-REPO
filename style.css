@@ -1,0 +1,10 @@
+.blog{
+    background-color: rgb(9, 49, 89);
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+    color: white;
+}
+h6{
+    background-color: aqua;
+}

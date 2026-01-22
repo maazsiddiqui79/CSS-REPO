@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice html</title>
+
+    <style>
+        .li-item{
+            background-color: bisque;
+            padding: 10px;
+            margin: 10px;
+            border: black 2px solid;
+        }
+        
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP-3V-FqF3DnueyZGN8zYKA-e8CCc51DmbyA&s" alt="maaz" width="75" />
+        <span style="background-color: cornflowerblue;">This is heading tag</span>
+      </h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li class="li-item">Home</li>
+        <li class="li-item">About</li>
+        <li class="li-item">Profile</li>
+        <li class="li-item">Contact</li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="blog">
+        <h1>This is Blog 1</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />Labore
+          accusamus reprehenderit eaque aut, <br />dolore reiciendis recusandae
+          minus inventore dolorem dolores ratione officia commodi maiores
+          laudantium magnam quam deserunt harum ipsam. <br />Impedit architecto
+          officiis sed asperiores similique pariatur facere deleniti officia
+          expedita ad? Eaque, <br />qui adipisci?
+        </p>
+        <br />
+        <hr />
+        <br />
+      </section>
+
+      <section class="blog">
+        <h1>This is Blog 2</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />Labore
+          accusamus reprehenderit eaque aut, <br />dolore reiciendis recusandae
+          minus inventore dolorem dolores ratione officia commodi maiores
+          laudantium magnam quam deserunt harum ipsam. <br />Impedit architecto
+          officiis sed asperiores similique pariatur facere deleniti officia
+          expedita ad? Eaque, <br />qui adipisci?
+        </p>
+        <br />
+        <hr />
+        <br />
+      </section>
+
+      <section class="blog">
+        <h1>This is Blog 3</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />Labore
+          accusamus reprehenderit eaque aut, <br />dolore reiciendis recusandae
+          minus inventore dolorem dolores ratione officia commodi maiores
+          laudantium magnam quam deserunt harum ipsam. <br />Impedit architecto
+          officiis sed asperiores similique pariatur facere deleniti officia
+          expedita ad? Eaque, <br />qui adipisci?
+        </p>
+        <br />
+        <hr />
+        <br />
+      </section>
+
+      <h3>YouTube Link</h3>
+      <section>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/UrsmFxEIp5k?si=hG5a4vEf-lZn18di"
+          title="YouTube video player"
+          frameborder="0"
+          allow="
+            accelerometer;
+            autoplay;
+            clipboard-write;
+            encrypted-media;
+            gyroscope;
+            picture-in-picture;
+            web-share;
+          "
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </section>
+
+    </main>
+    <section>
+      <form action="#" method="post">
+        <!-- Fieldset & Legend -->
+        <fieldset>
+          <legend>Personal Information</legend>
+
+          <!-- Text -->
+          <label>Full Name:</label><br />
+          <input
+            type="text"
+            name="fullname"
+            placeholder="Enter name"
+          /><br /><br />
+
+          <!-- Email -->
+          <label>Email:</label><br />
+          <input type="email" name="email" /><br /><br />
+
+          <!-- Password -->
+          <label>Password:</label><br />
+          <input type="password" name="password" /><br /><br />
+
+          <!-- Number -->
+          <label>Age:</label><br />
+          <input type="number" name="age" /><br /><br />
+
+          <!-- Date -->
+          <label>Date of Birth:</label><br />
+          <input type="date" name="dob" /><br /><br />
+
+          <!-- Time -->
+          <label>Preferred Time:</label><br />
+          <input type="time" name="time" /><br /><br />
+
+          
+
+          <!-- File -->
+          <label>Upload Photo:</label><br />
+          <input type="file" name="photo" /><br /><br />
+
+          
+        </fieldset>
+
+        <br />
+
+        <!-- Radio Buttons -->
+        <fieldset>
+          <legend>Gender</legend>
+          <input type="radio" name="gender" value="male" /> Male<br />
+          <input type="radio" name="gender" value="female" /> Female<br />
+          <input type="radio" name="gender" value="other" /> Other
+        </fieldset>
+
+        <br />
+
+        <!-- Checkbox -->
+        <fieldset>
+          <legend>Hobbies</legend>
+          <input type="checkbox" name="hobby" value="sports" /> Sports<br />
+          <input type="checkbox" name="hobby" value="music" /> Music<br />
+          <input type="checkbox" name="hobby" value="coding" /> Coding
+        </fieldset>
+
+        <br />
+
+        <!-- Select / Option / Optgroup -->
+        <label>Course:</label><br />
+        <select name="course">
+            <option>Computer</option>
+            <option>IT</option>
+            <option>MBA</option>
+        </select>
+
+        <br /><br />
+
+        <!-- Textarea -->
+        <label>Address:</label><br />
+        <textarea name="address" rows="4" cols="40"></textarea>
+
+        <br /><br />
+        <!-- Buttons -->
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Reset" />
+        <button type="button">Custom Button</button>
+      </form>
+    </section>
+
+    <h6>The styling is applied by tag name</h6>
+
+    <footer>
+        <hr>
+        <p>2026 | This is footer</p>
+    </footer>
+  </body>
+</html>
